@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--title-->
+    <string name="title_connnect">设备连接</string>
+    <string name="title_connnect_success">设备连接</string>
+    <string name="title_receive">数据接收</string>
+    <string name="title_data">提取数据</string>
+    <string name="title_setting">我的</string>
+    <string name="title_search">搜索</string>
+    <string name="title_select_gallery">选择照片</string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout_idle"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <ImageView
+            android:id="@+id/img_blue"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_bluetooth_unconnected" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img_blue"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#808080"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txt_mac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#808080"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_unconnected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#808080"
+                android:text="@string/UnConnect"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="@dimen/len_16"
+                android:layout_height="@dimen/len_16"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:src="@mipmap/ic_unconnect" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="@dimen/len_2"
+        android:layout_marginEnd="@dimen/len_8"
+        android:layout_marginLeft="@dimen/len_20"
+        android:layout_marginRight="@dimen/len_8"
+        android:layout_marginStart="@dimen/len_20"
+        android:layout_marginTop="@dimen/len_2"
+        android:background="#cccccc" />
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="@color/toolbar_blue"
+        android:paddingLeft="@dimen/len_10"
+        android:paddingRight="@dimen/len_10"
+        android:paddingTop="@dimen/len_8">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/len_40"
+            android:layout_height="@dimen/len_24"
+            android:src="@mipmap/ic_back_view"
+            android:layout_marginLeft="@dimen/len_6"
+            android:scaleType="fitStart"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/len_10"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="@dimen/len_10"
+            android:text="@string/Network_Setting"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/et_url"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:background="@drawable/bg_border"
+            android:textColor="@color/textDark"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"/>
+
+        <Button
+            android:id="@+id/bt_socketconnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/len_20"
+            android:text="@string/Scocket_Connect"
+            android:textSize="@dimen/font_14"
+            android:layout_gravity="center"
+            android:background="@drawable/sel_btn_bg_accent_44"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

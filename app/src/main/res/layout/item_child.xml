@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+     >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/child_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2018-11-05"
+            android:textColor="@color/textDark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/child_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/child_name"
+            android:text="@string/Test_MyTime"
+            android:textColor="@color/textDark"
+            android:textSize="12sp" />
+        <ImageView
+            android:id="@+id/iv_delete_item"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_delete_item"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/len_20"
+            android:clickable="true"
+            android:onClick="OnClickDelete"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#B2DFEE" />
+    </RelativeLayout>
+
+</RelativeLayout>

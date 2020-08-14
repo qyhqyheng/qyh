@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.justec.pillowalcohol.fragment.history.HistoryFragment">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:background="@color/toolbar_blue"
+        android:paddingLeft="@dimen/len_10"
+        android:paddingRight="@dimen/len_10"
+        android:paddingTop="@dimen/len_8">
+
+        <TextView
+            android:id="@+id/tv_my"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="@dimen/len_10"
+            android:text="@string/Me"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_16"
+            android:textAllCaps="false"/>
+
+        <TextView
+            android:id="@+id/tv_bluetooth_connect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="@dimen/len_10"
+            android:text="@string/History"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+        <ImageView
+            android:id="@+id/iv_delete_history"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_delete_all"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="@dimen/len_10"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/len_20">
+
+        <TextView
+            android:id="@+id/tv_month"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+
+            android:text="Month"
+            android:textColor="@drawable/tv_state_pressed_text"
+            android:gravity="center"
+            android:background="@drawable/tv_state_pressed"
+            android:textSize="@dimen/font_16"
+
+            />
+        <TextView
+            android:id="@+id/tv_year"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+
+            android:background="@drawable/tv_state_pressed"
+            android:layout_toLeftOf="@id/tv_month"
+            android:textColor="@drawable/tv_state_pressed_text"
+            android:text="@string/Year"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/tv_day"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="@drawable/tv_state_pressed"
+           android:layout_toRightOf="@id/tv_month"
+            android:textColor="@drawable/tv_state_pressed_text"
+            android:gravity="center"
+            android:text="@string/Date"
+            />
+
+        <ExpandableListView
+            android:id="@+id/my_listview"
+            android:layout_below="@id/tv_month"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:divider="@null"
+            android:dividerHeight="8dp">
+        </ExpandableListView>
+    </RelativeLayout>
+</LinearLayout>

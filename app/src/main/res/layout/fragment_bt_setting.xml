@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="@color/toolbar_blue"
+        android:paddingLeft="@dimen/len_10"
+        android:paddingRight="@dimen/len_10"
+        android:paddingTop="@dimen/len_8">
+
+        <ImageView
+            android:id="@+id/iv_bt_back"
+            android:layout_width="@dimen/len_52"
+            android:layout_height="@dimen/len_24"
+            android:src="@mipmap/ic_back_view"
+            android:layout_marginLeft="@dimen/len_6"
+            android:scaleType="fitStart"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/len_10"
+            />
+        <TextView
+            android:id="@+id/tv_bluetooth_connect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="@dimen/len_10"
+            android:text="@string/Ble"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/setting_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/Ble_Name0"
+            android:textColor="@color/textDark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/len_6"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/len_16"/>
+        <EditText
+            android:id="@+id/et_BtName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/textPrimary"
+            android:gravity="center_vertical"
+            android:layout_marginRight="@dimen/len_10"
+            android:layout_gravity="center_vertical"
+            android:background="@color/white"
+            android:textSize="@dimen/font_16"/>
+
+        <Button
+            android:id="@+id/btname_setting"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:text="@string/Setting"
+            android:textColor="@color/secondaryTextColor"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="@dimen/font_16"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/sel_btn_bg_accent_44"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/Ble_SoftVertion"
+            android:textColor="@color/textDark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/len_6"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/font_16"
+            android:visibility="invisible"/>
+        <EditText
+            android:id="@+id/tv_bt_software"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/textPrimary"
+            android:gravity="center_vertical"
+            android:layout_marginRight="@dimen/len_10"
+            android:layout_gravity="center_vertical"
+            android:background="@color/white"
+            android:textSize="@dimen/font_16"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

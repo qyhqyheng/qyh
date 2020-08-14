@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--基础主色-->
+    <color name="primaryColor">#4b5cc4</color>
+    <color name="primaryLightColor">#2579a5</color>
+    <color name="primaryDarkColor">#2579a5</color>
+    <color name="accentColor">#4ce275</color>
+    <color name="secondaryLightColor">#718792</color>
+    <color name="secondaryColor">#455a64</color>
+    <color name="secondaryDarkColor">#1c313a</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#ffffff</color>
+    <color name="light_blue_500">#03a9f4</color>
+    <color name="toolbar_blue">#4b5cc4</color>
+    <color name="button_bg">#ff8a00</color>
+    <color name="test_toolbarColor">#272e56</color>
+    <color name="warning_background">#ff0000</color>
+    <color name="setting_background">#e6e6e6</color>
+
+
+    <!--背景色-->
+    <color name="windowsBackground">#f7f7f7</color>
+    <color name="windowsBackgroundLight">#f8f8f8</color>
+
+    <!--字体颜色-->
+    <color name="textPrimary">#404040</color>
+    <color name="textSecond">#8d9ca9</color>
+    <color name="textAccent">@color/primaryColor</color>
+    <color name="textLight">@color/primaryLightColor</color>
+    <color name="textDark">#101010</color>
+    <color name="textRed">#ff1140</color>
+
+    <!--提示色彩-->
+    <color name="alertNormal">#4ce275</color>
+    <color name="alertImportant">#f98d2c</color>
+
+    <!--遮罩颜色-->
+    <color name="maskChatHeader">@color/black_alpha_48</color>
+    <!--导航栏Icon遮罩色-->
+    <color name="navIconTintLight">@color/white_alpha_240</color>
+
+    <color name="tab_unselect">#c9c9c9</color>
+    <color name="bg_btn">#dadada</color>
+</resources>

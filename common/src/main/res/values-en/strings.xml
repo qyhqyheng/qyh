@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_gallery_select_max_size">At most select %d sheet</string>
+    <!--连接信息-->
+    <string name="label_current_device_name">Device information</string>
+    <string name="label_current_device_status">Connection status </string>
+    <string name="connected_device_unknown">Device is not connect</string>
+
+    <string name="notifyTitle">Tips</string>
+    <string name="gpsNotifyMsg">Phone scan the bluetooth needs to turn on the positioning function</string>
+    <string name="setting">Go to setting</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="start_scan">Search device</string>
+    <string name="stop_scan">Scanning</string>
+    <!--<string name="stop_scan">停止扫描</string>-->
+    <string name="expand_search_settings">Expand search device</string>
+    <string name="retrieve_search_settings">Unpack search device</string>
+    <string name="connect_fail">Connect failure</string>
+    <string name="active_disconnected">Disconnected </string>
+    <string name="disconnected">Disconnected </string>
+    <string name="please_open_blue">Please turn on Bluetooth</string>
+    <string name="select_operation_type">Select type</string>
+    <string name="characteristic">Character</string>
+    <string name="data_changed">Data changing：</string>
+    <string name="read">Read</string>
+    <string name="write">Write</string>
+    <string name="open_notification">Open notification </string>
+    <string name="close_notification">Close notification</string>
+    <string name="service_list">Service list</string>
+    <string name="characteristic_list">Feature list</string>
+    <string name="console">Operation console </string>
+    <string name="name">Device name：</string>
+    <string name="mac">MAC:</string>
+    <string name="service">Service</string>
+    <string name="type">Servie type</string>
+    <string name="scan_setting">Below you can configure the condition of the device that needs to be scanned, which can be null</string>
+    <string name="setting_name">Enter bluetooth name</string>
+    <string name="setting_mac">Enter bluetooth Mac address</string>
+    <string name="setting_uuid">Enter bluetooth UUID</string>
+    <string name="input_hex">Enter HEX command</string>
+    <string name="connect">Connecting</string>
+    <string name="connected">Connected </string>
+    <string name="disconnect">Disconnect</string>
+    <string name="enter">Entry operation</string>
+
+    <!--初始化操作-->
+    <string name="ble_data_init_loding">Initializing </string>
+    <string name="ble_data_error_empty_or_destory">Transferring data error</string>
+    <string name="data_record_error_empty">Start$finish SN is unqualified</string>
+    <string name="data_record_limit_count_error">Search record at most</string>
+    <string name="data_parse_command_complete">Commands and Analysis done</string>
+
+    <!--搜索记录-->
+    <string name="ble_data_search_start_num">Start</string>
+    <string name="ble_data_search_end_num">End</string>
+    <string name="ble_data_search">Confirm extraction</string>
+    <string name="ble_data_searching">Extracting</string>
+    <string name="ble_data_search_start_num_hint">Please enter serial No.，letter or special symbol is not allow</string>
+    <string name="ble_data_search_end_num_hint">Please enter end serial No.,letter or special symbol is not allow</string>
+    <string name="ble_data_search_loading_hint">Data loading</string>
+    <string name="ble_data_empty">Record is empty</string>
+
+    <!--搜索界面_历史记录-->
+    <string name="ble_data_search_history_device_name">Extract device name</string>
+    <string name="ble_data_search_history_device_get_time">Extract device time</string>
+
+    <string name="press_again_exit">Exit again</string>
+    <!--我的界面_校验时间-->
+    <string name="label_alignment_time">Calibration time</string>
+    <string name="label_phone_time">Phone time</string>
+    <string name="label_device_time">Device time</string>
+    <string name="label_calibrating_time">Calibrating</string>
+
+    <!---->
+    <string name="label_change_password">Change password</string>
+    <string name="label_change_account">Switch account</string>
+    <string name="label_about">Verion No.1.0.0</string>
+    <string name="label_version_lastest">The lastest version No.</string>
+    <string name="label_exit">Exit</string>
+
+    <string name="prompt_empty">Oh~, it empty!</string>
+    <string name="prompt_error">Sorry, you have or more error!</string>
+    <string name="prompt_loading">Loading…</string>
+
+    <string name="label_parameter_setting">Parameter Setting</string>
+    <string name="label_bluetooth_name">Bluetooth Name</string>
+    <string name="label_alignment">Calibrate</string>
+    <string name="label_product">Product</string>
+    <string name="label_about_device">About</string>
+
+    <string name="label_after_sales">After sales service</string>
+    <string name="label_feedback">Feedback</string>
+    <string name="label_help">Help</string>
+    <string name="label_get_version">Get the latest version No.</string>
+    <string name="Alcohol_Concentration">Alcohol concentration</string>
+</resources>

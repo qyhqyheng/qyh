@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="@color/toolbar_blue"
+        android:paddingLeft="@dimen/len_10"
+        android:paddingRight="@dimen/len_10"
+        android:paddingTop="@dimen/len_8">
+
+        <ImageView
+            android:id="@+id/iv_para_back"
+            android:layout_width="@dimen/len_40"
+            android:layout_height="@dimen/len_24"
+            android:src="@mipmap/ic_back_view"
+            android:layout_marginLeft="@dimen/len_6"
+            android:scaleType="fitStart"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/len_10"
+            />
+
+        <TextView
+            android:id="@+id/tv_bluetooth_connect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="@dimen/len_10"
+            android:text="@string/Parameter_setting"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/setting_background"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rl_alarm_bell"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="@dimen/len_10"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/len_10"
+                android:text="@string/Para_AlarmBela"
+                android:textColor="@color/textPrimary"
+                android:textSize="@dimen/font_16" />
+            <TextView
+                android:id="@+id/tv_alarm_bell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Classic_Rintong"
+                android:textColor="@color/textPrimary"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/len_10"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/font_16"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:layout_marginTop="@dimen/len_2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/len_10"
+                android:text="@string/Vabrate"
+                android:textColor="@color/textPrimary"
+                android:textSize="@dimen/font_16" />
+            <ToggleButton
+                android:id="@+id/tb_vibration"
+                android:layout_width="44dp"
+                android:layout_height="26dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/len_10"
+                android:background="@drawable/toggle_selector"
+                android:checked="true"
+                android:textOn="@null"
+                android:textOff="@null"/>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:layout_marginTop="@dimen/len_2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/len_10"
+                android:text="@string/Alarm_Tip"
+                android:textColor="@color/textPrimary"
+                android:textSize="@dimen/font_16" />
+            <ToggleButton
+                android:id="@+id/tb_alarm"
+                android:layout_width="44dp"
+                android:layout_height="26dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/len_10"
+                android:background="@drawable/toggle_selector"
+                android:checked="true"
+                android:textOn="@null"
+                android:textOff="@null"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_alarm_value"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="@dimen/len_10"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/len_10"
+                android:text="@string/Para_AlarmData"
+                android:textColor="@color/textPrimary"
+                android:textSize="@dimen/font_16" />
+            <TextView
+                android:id="@+id/tv_alarm_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textColor="@color/textPrimary"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/len_28"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:textSize="@dimen/font_16"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

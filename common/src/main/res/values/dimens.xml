@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--头像高度-->
+    <dimen name="portraitMinSize">@dimen/len_36</dimen>
+    <dimen name="portraitSize">@dimen/len_40</dimen>
+    <dimen name="portraitMaxSize">@dimen/len_64</dimen>
+
+    <!--状态栏高度-->
+    <dimen name="statusBarSize">25dp</dimen>
+    <!--状态栏和标题栏高度一起-->
+    <dimen name="actionBarWithStatusBarSize">73dp</dimen>
+
+    <!--名字字体的大小-->
+    <dimen name="fontNameSize">15sp</dimen>
+
+    <dimen name="len_2">2sp</dimen>
+    <dimen name="len_4">4sp</dimen>
+    <dimen name="len_6">6sp</dimen>
+    <dimen name="len_8">8sp</dimen>
+    <dimen name="len_10">10sp</dimen>
+    <dimen name="len_12">12sp</dimen>
+    <dimen name="len_14">14sp</dimen>
+    <dimen name="len_16">16sp</dimen>
+    <dimen name="len_18">18sp</dimen>
+    <dimen name="len_20">20sp</dimen>
+    <dimen name="len_24">24sp</dimen>
+    <dimen name="len_28">28sp</dimen>
+    <dimen name="len_52">52sp</dimen>
+    <dimen name="len_80">80sp</dimen>
+
+</resources>

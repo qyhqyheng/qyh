@@ -1,0 +1,70 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 26
+
+    defaultConfig {
+        minSdkVersion 18
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    implementation "com.android.support:appcompat-v7:$rootProject.ext.supportVersion"
+    implementation "com.android.support:design:$rootProject.ext.supportVersion"
+    /*implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'*/
+//    implementation "com.android.support:support-v4:$rootProject.ext.supportVersion"
+//    implementation "com.android.support:appcompat-v7:$rootProject.ext.supportVersion"
+    implementation "com.android.support:design:$rootProject.ext.supportVersion"
+    implementation "com.android.support.constraint:constraint-layout:$rootProject.ext.coordinaryVersionCode"
+
+    //genus
+    implementation "net.qiujuer.genius:ui:$rootProject.ext.geniusVersion"
+    implementation "net.qiujuer.genius:res:$rootProject.ext.geniusVersion"
+    implementation "de.hdodenhof:circleimageview:$rootProject.ext.circleimageviewVersion"
+    implementation "net.qiujuer.genius:kit-handler:$rootProject.ext.geniusVersion"
+
+    //glide
+    implementation "com.github.bumptech.glide:glide:$rootProject.ext.glideVersion"
+
+    //butterknife
+    implementation "com.jakewharton:butterknife:$rootProject.ext.butterknifeVersion"
+    annotationProcessor "com.jakewharton:butterknife-compiler:$rootProject.ext.butterknifeVersion"
+
+    //下拉刷新
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.3-alpha-3'
+
+    //BaseRecyclerViewAdapterHelper
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:v1.9.7'
+
+    //Fragmentation
+    implementation 'me.yokeyword:fragmentation:1.3.5'
+    implementation 'me.yokeyword:fragmentation-core:1.3.5'
+    // Activity作用域的EventBus，更安全，可有效避免after onSavenInstanceState()异常
+    implementation 'me.yokeyword:eventbus-activity-scope:1.1.0'
+
+    // Your EventBus's version
+    implementation 'org.greenrobot:eventbus:3.0.0'
+
+
+}
